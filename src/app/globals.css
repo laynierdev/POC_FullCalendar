@@ -3,12 +3,6 @@
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 html,
 body {
@@ -35,8 +29,23 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.btn {
+  background-color:  #87BBA2 !important;
+  color: white !important;
+  border: none !important;
+  height: 40px;
+  border-radius: 50px !important;
+  width: 120px;
+  transition: all 0.3s ease-in-out;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Lexend, sans-serif;
+  padding: 0.5rem 2rem;
+}
+.btn:hover {
+  box-shadow: #14532d 0 0 10px !important;
+  background-color: #63947D !important;
+  color: white;
+  border: none;
+
 }
